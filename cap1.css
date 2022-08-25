@@ -1,3 +1,33 @@
+* {
+margin: 0;
+padding: 0;
+}
+
 body {
 	font-family:'Poppins', sans-serif;
+}
+
+#home {
+	background-image: url(./images/jonathan.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 75% 100%;
+	color: white;
+	min-height: 42em;
+}
+
+#head-text {
+	display: inline-grid;
+	padding-top: 15%;
+	padding-left: 10%;
+	visibility: none;
+}
+
+.job-title {
+	background-color: yellow;
+	color: black;
+}
+
+#name1, #name2 {
+	margin-bottom: 0;
 }
