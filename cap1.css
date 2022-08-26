@@ -8,26 +8,50 @@ body {
 }
 
 #home {
-	background-image: url(./images/jonathan.jpg);
+	background-image: url(./images/jonathan2.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 75% 100%;
 	color: white;
-	min-height: 42em;
+	min-height: 40em;
 }
 
 #head-text {
 	display: inline-grid;
-	padding-top: 15%;
-	padding-left: 10%;
+	padding-top: 20%;
+	padding-left: 8%;
 	visibility: none;
 }
 
 .job-title {
 	background-color: yellow;
 	color: black;
+	width: 15em;
+	padding-left: 15px;
 }
 
 #name1, #name2 {
 	margin-bottom: 0;
+}
+
+#name2 {
+	font-family: 'poppins black 900', sans-serif;
+}
+
+#text-area {
+	min-height: 10em;
+}
+#map {
+	padding-top: 74px;
+}
+
+#profile {
+	max-height: 15em;
+	max-width: 15em;
+	border-radius: 20em;
+	padding-bottom: 3em;
+}
+
+#proj {
+	
 }
