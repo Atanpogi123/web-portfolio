@@ -7,17 +7,41 @@ body {
 	font-family:'Poppins', sans-serif;
 }
 
+#home-title {
+	max-width: 67%;
+	max-height: 15%;
+	margin-left: 2%;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+#home-title2 {
+	display: float;
+	max-width: 55%;
+	max-height: 2%;
+	margin-left: 2%;
+	padding-top: 10px;
+	position: relative;
+}
+
 #home {
 	background-image: url(./images/jonathan2.jpg);
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 75% 100%;
+	background-size: 100;
 	color: white;
 	min-height: 40em;
 }
 
 #head-text {
 	display: inline-grid;
+	padding-top: 20%;
+	padding-left: 8%;
+	visibility: none;
+}
+
+#head-text2{
+	display: inline-flex
 	padding-top: 20%;
 	padding-left: 8%;
 	visibility: none;
@@ -30,12 +54,20 @@ body {
 	padding-left: 15px;
 }
 
+.job-title2 {
+	background-color: yellow;
+	color: black;
+	width: 12em;
+	padding-left: 15px;
+}
+
 #name1, #name2 {
 	margin-bottom: 0;
 }
 
 #name2 {
 	font-family: 'poppins black 900', sans-serif;
+	font-weight: bold;
 }
 
 #text-area {
@@ -52,6 +84,20 @@ body {
 	padding-bottom: 3em;
 }
 
-#proj {
-	
+#nav-small {
+	max-height: 50px;
 }
+
+#about-me-head {
+	text-align: center;
+	font-size: 4em;
+}
+
+#about-me-text {
+	font-family: sans-serif;
+	font-size: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-style: italic;
+}
+

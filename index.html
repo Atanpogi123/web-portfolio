@@ -20,6 +20,12 @@
   </head>
   <body class="bg-secondary">
 <!-- Navbar -->
+
+
+ 
+
+<!-- end of navbar ttesting -->
+
 <div class="sticky-top flex-row">
     <nav class="navbar navbar-expand-sm navbar-dark bg-secondary pb-0">
         <div class="collapse navbar-collapse" id="navbarNav">
@@ -65,11 +71,47 @@
 
 <main class="container-fluid bg-dark mt-1 pl-0">
     <section class="row d-flex" id="home">
-        <div class="col-12">
+          <div class="col-12 container-fluid" id="home-title2">
+                <div class="d-md-none" id="head-text2 justify-content-center">
+                    <p id="name1" class="d-md-none">MY NAME IS</p> 
+                    <p id="name2" class="d-md-none display-5">JONATHAN NUESTRO</p>
+                    <p class="d-md-none job-title2">I'M A WEB DEVELOPER</p>
+                </div>
+
+                <div class="">
+  <button id="nav2" class="btn btn-primary d-md-none bg-transparent border-0 position-sticky" type="button" data-toggle="collapse" data-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+    =
+  </button>
+                </div>
+                      <div">
+                        <div class="collapse width " id="collapseWidthExample">
+                          <div class="card card-body position-absolute bg-transparent">
+                              <ul class="navbar-nav m-1">
+                                <li class="nav-item">
+                                  <a class="nav-link text-white" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white" href="#about-me">About Me</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white" href="#projects">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link text-white" href="#contact-me">Contact Me</a>
+                                </li>
+
+                              </ul>
+                          </div>
+                        </div>
+               </div>
+
+                          </div> 
+
+        <div class="col-12" id="home-title">
                 <div id="head-text">
-                    <p id="name1" class="display-5">MY NAME IS</p> 
-                    <p id="name2" class="display-3">JONATHAN NUESTRO</p>
-                    <p class="job-title display-5">I'M A WEB DEVELOPER</p>
+                    <p id="name1" class="d-none d-md-flex display-5">MY NAME IS</p> 
+                    <p id="name2" class="d-none d-md-inline display-3">JONATHAN NUESTRO</p>
+                    <p class="d-none d-md-flex job-title display-5">I'M A WEB DEVELOPER</p>
                 </div>
         </div>  
     </section>
@@ -77,17 +119,21 @@
  <!-- End of Home page -->   
 
  <!-- About Me -->
-   <div class="container-fluid bg-dark" id="about-me">
-        <h1  class="align-content-right text-light offset-7 pt-3 d-none d-md-flex">About Me</h1>
-        <div class="text-light row">
-            <div class="col-md-4 justify-content-center justify-content-lg-start align-items-center offset-2 mt-2">
-                <img id="profile"src="./images/jonathan4.jpg">
+   <div class="container-fluid bg-secondary pr-0 mr-0" id="about-me">
+        <div class="row bg-dark container-fluid mr-0 pr-0" id="about-me-row">
+            <div class="offset-1 col-5 bg-secondary d-none d-md-inline-block text-md-center">
+              <img class="img-fluid" src="./images/jonathan5.png">
             </div>
-            <div class="bg-dark pt-3 pb-3 col-6 ml-auto d-none d-md-inline-block">
-                I work on the full stack, from creating and designing the website, to building the back-end and making everything work smoothly. My portfolio is a testament to my skills as a developer and designer.<div class="pt-2"></div>
-                If you're looking for a developer who can wear many hats, them I'm the perfect fit for your organization.
-            </div>        
-            
+            <div class="col-11 col-md-5 bg-secondary text-md-center pr-0 mr-0">
+              <h1 class="mt-md-5 mt-0" id="about-me-head">About Me</h1>
+                  <p id="about-me-text" class="mt-4 pt-2">
+              I work on the full stack, from creating and designing the website, to building the back-end and making everything work smoothly. 
+                  </p>
+                  <p id="about-me-text">
+                    My portfolio is a testament to my skills as a developer and designer.
+                  </p>
+            </div>
+
         </div>
         
     </div>
@@ -95,22 +141,22 @@
 
  <!-- About me end-->
 
+ <h1 id="project-head" class="mt-1 pt-1 mb-0 pb-0 text-center text-light display-4">Projects</h1>
 
 
 <!-- Projects-->
     
-    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleCaptions" class="carousel slide mt-0" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
   </ol>
-  <div id="projects" class="carousel-inner pt-4">
-    <div class="carousel-item active">
+  <div id="projects" class="carousel-inner pt-2">
+    <div class="carousel-item active row">
       <img id="proj" src="./images/guitar.png" class="d-block w-50 h-25 offset-3" alt="...">
-      <div class="carousel-caption center-block">
-        <h3>Projects</h3>
-        <h5>Musician</h5>
+      <div class="carousel-caption d-block">
+        <h3>Musician</h3>
         <p>I teach how to play musical instrumets to churches.</p>
         <a href="https://www.facebook.com/groups/337254733453831">See Music Team</a>
       </div>
@@ -118,7 +164,6 @@
     <div class="carousel-item">
       <img id="proj" src="./images/type.jpg" class="d-block w-50 h-25 offset-3" alt="...">
       <div class="carousel-caption d-block">
-        <h3>Projects</h3>
         <h5>Virtual Assistant</h5>
         <p>I work as a dispatch virtual assistant at a furniture store.</p>
         <a href="https://www.luxoliving.com.au/">See Store</a>
@@ -127,9 +172,8 @@
     <div class="carousel-item">
       <img id="proj" src="./images/web.jpg" class="d-block w-50 h-25 offset-3" alt="...">
       <div class="carousel-caption d-block">
-        <h3>Projects</h3>
         <h5>Web developer</h5>
-        <p>I finished by first captone at Zuitt Bootcamp</p>
+        <p>I finished by first capstone at Zuitt Bootcamp</p>
         <a href="https://zuitt.co/?gclid=CjwKCAjw3qGYBhBSEiwAcnTRLkpnDhhGvl778_yU4U1Lwnnhts39M5RMxSJnMHbZsWuUr_wyMUzsWBoCGaUQAvD_BwE">See Project</a>
       </div>
     </div>
@@ -150,8 +194,8 @@
 <!-- Contact Me -->
     <div class="container-fluid text-center pt-4">
           <div class="row">
-              <div class="order-1 bg-secondary container-fluid col-lg-6 col-md-8 col-sm-12 text-light d-md-flex">
-              <form class="container-fluid text-center px-2 pb-2 text-light col-sm-12 col-md-8 col-xl-11">
+              <div class="order-1 bg-secondary container-fluid col-lg-6 col-md-12 col-sm-12 text-light d-md-flex">
+              <form class="container-fluid text-center px-2 pb-2 text-light col-sm-12 col-md-11 col-xl-11">
                   <div class="form-group" id="contact-me">
                     <h1>Contact me</h1>
                     <label for="name">Name</label>
@@ -177,7 +221,7 @@
 
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-white   text-light bg-dark rounded" data-toggle="modal" data-target="#staticBackdrop">
-            Send Email
+            Submit
           </button>
 
           <!-- Modal -->
@@ -191,7 +235,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  Message succesfully sent
+                  Congratulations. You won $100,000.00!!!
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
